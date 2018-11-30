@@ -1,0 +1,63 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+header section .conteiner{
+	height: 100%;
+
+}
+.wraper{
+	display: flex;
+}
+header{
+	background: url("../img/2-layers.jpg");
+	display: flex;
+	background-size: cover;
+	height: 100%;
+	
+	
+
+
+}	
+.logo{
+	margin:172px 0 0  246px;
+
+}
+.conteiner p{
+	width: 331px;
+	height: 88px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 54px;
+	/* Text style for "T, alk to" */
+	letter-spacing: 3.6px;
+}
+.registr{
+	margin:129px 156px 118px 749px;
+	width: 377px;
+	height: 422px;
+	box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+	background-color: #333333;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+}
+.registr p{
+	width: 317px;
+	height: 40px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "If you’re" */
+	letter-spacing: 1.6px;
+
+}
