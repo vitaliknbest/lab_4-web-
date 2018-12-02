@@ -10,10 +10,21 @@ body, html {
 .wraper{
 	display: flex;
 	flex-direction: column;
+	height: 100%;
+}
+header{
+	flex: 1 0 auto;
+}
+main {
+	flex: 1 0 auto;
+}
+footer{
+	height: 100%;
+	flex: 0 0 auto;
+
 }
 header {
 	background: url("../img/2-layers.jpg") no-repeat center top / cover;
-	height: 100%;	
 }
 
 .logo{
