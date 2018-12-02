@@ -1,34 +1,28 @@
-
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-html, body{
-	height: 100%;
-}
-header section .conteiner{
-	height: 100%;
 
+body, html {
+	height: 100%;
 }
 .wraper{
 	display: flex;
+	flex-direction: column;
 }
-header{
-	background: url("../img/2-layers.jpg");
-	display: flex;
-	background-size: cover;
-	height: 100%;
-	
-	
+header {
+	background: url("../img/2-layers.jpg") no-repeat center top / cover;
+	height: 100%;	
+}
 
-
-}	
 .logo{
-	margin:172px 0 0  246px;
-
+	width: 276px;
+	height: 109px;	
+	margin:172px 156px 118px 249px;
 }
-.conteiner p{
+.conteiner .text_logo p{
+	/* Style for "Talk to pe" */
 	width: 331px;
 	height: 88px;
 	color: #333333;
@@ -39,17 +33,117 @@ header{
 	/* Text style for "T, alk to" */
 	letter-spacing: 3.6px;
 }
+.text_logo{
+	text-align: center;
+	width: 331px;
+	height: 88px;
+	margin: -94px 0 0 222px;
+}
+.text_logo p{
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 54px;
+	/* Text style for "T, alk to" */
+	letter-spacing: 3.6px;
+}
+
+/*register block*/
+
+
+
 .registr{
-	margin:129px 156px 118px 749px;
+	display: flex;
+	flex-direction: column;
+	min-width: 377px;
+	min-height: 422px;
 	width: 377px;
 	height: 422px;
 	box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
 	background-color: #333333;
 	opacity: 0.9;
+	margin:-289px 156px 118px 749px;
+
+}
+/*sing buttom block*/
+.sing_buttons{
+	display: flex;
+
+}
+.sing_in{
+	min-width: 190px;
+	min-height: 58px;
+	background-color: #ffffff;
+	opacity: 0.7;
+	padding: 21px 60px 20px 65px;
+}
+.sing_in span{
+	/* Style for "Sign in" */
+	width: 59px;
+	height: 17px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+
+	/* Text style for "Sign in" */
+	letter-spacing: 1.8px;
+}
+.join_us{
+	min-width: 187px;
+	min-height: 58px;
+	background-color: #333333;
+	opacity: 0.9;
+	padding: 21px 60px 22px 56px;
+
+}
+.join_us span{
+
+	/* Style for "Join us" */
+	width: 60px;
+	height: 15px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for "Join us" */
+	letter-spacing: 1.8px;
+}
+/*end of sing in block*/
+
+/*input fields block*/
+.input_fields{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	padding:  23px 17px 0 13px; 
 }
-.registr p{
+#Name{
+	width: 347px;
+	height: 40px;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+#Email{
+	width: 347px;
+	height: 40px;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+#Password{
+	width: 347px;
+	height: 40px;
+	background-color: #ffffff;
+}
+#Code{
+	width: 347px;
+	height: 40px;
+	background-color: #ffffff;
+}
+.input_fields p{
 	width: 317px;
 	height: 40px;
 	color: #ffffff;
@@ -57,7 +151,168 @@ header{
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
+	margin:8px 0 14px 0;
 	/* Text style for "If you’re" */
 	letter-spacing: 1.6px;
 
 }
+.register_button{
+	width: 347px;
+	height: 40px;
+	background-color: #ff6600;
+	display: flex;
+	justify-content: space-around;
+	margin:15px 16px 0px 14px;
+}
+.register_button a{
+	width: 217px;
+	height: 31px;
+	color: #333333;
+	font-family: "Catamaran - Black";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-decoration: none;
+	/* Text style for "Register n" */
+	letter-spacing: 3px;
+}
+/*end of register block*/
+
+
+/*main block*/
+main{
+	height: 100%;
+	background-color: #ffffff;
+}
+h1{
+	margin:52px 0 0 15px;
+	width: 316px;
+	color: #00a8b2;
+	height: 31px;
+	font-family: "Catamaran - Black";
+
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for ",  ," */
+	color: #333333;
+	letter-spacing: 3px;
+	/* Text style for "How it wor" */
+	letter-spacing: 3px
+	color: #00a8b2;
+}
+h2{
+	margin:55px 0 52px 0;
+	width: 232px;
+	height: 24px;
+	color:#00a8b2;
+	font-family: Catamaran;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for ",  ," */
+	color: #333333;
+	letter-spacing: 3px;
+	/* Text style for "How it wor" */
+	letter-spacing: 3px
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+}
+h3{
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	/* Text style for "Start" */
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+}
+main .conteiner  p{
+	margin-top: 15px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "Web platfo" */
+	letter-spacing: 1.6px;
+}
+main .conteiner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.description{
+	height: 100%;
+	text-align: center;
+
+}
+.how_it_works_block{
+	display: flex;
+}
+.how_it_works_block > *{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	margin-bottom: 75px;
+}
+
+
+
+/*end of main block*/
+
+
+/*footer block*/
+
+footer{
+	height: 100%;
+	background-color: #333333;
+	min-height: 120px;
+}
+footer .conteiner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 20px 30px 20px;
+}
+.rectangle { 
+	width: 45px;
+	height: 5px;
+	background-color: #ffffff;
+}
+.conect_with_us_block{
+	display: flex;
+	align-items: center;
+} 
+.conect_with_us_block p{
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for "C, onnect" */
+	letter-spacing: 1.6px;
+	margin: 0 15px 0 15px;
+}
+.contacts p {
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for "C, onnect" */
+	letter-spacing: 1.6px;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+
+} 

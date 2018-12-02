@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" name=:"viewport">
 	<title>my first site</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <div class="wraper">
@@ -11,13 +12,30 @@
 		<section>
 		<div class="conteiner">
 			<img src="img/logo.png" class= "logo" alt="">
-			<p>Talc to people africial language</p>
+			<div class="text_logo"><p>Talc to people africial language</p></div>
 			<div class="registr">
-				<input type="Name">
-				<input type="Email">
-				<input type="Password">
+				<form action="#">
+				<div class="sing_buttons">
+					<div class="join_us">
+					<span>
+						Join us
+					</span>
+					</div>
+				<div class="sing_in">
+					<span>
+						Sing in
+					</span>
+				</div>
+				</div>
+				<div class="input_fields">
+				<input type="text" id = 'Name' name ="Name" placeholder="Name">
+				<input type="text" id = "Email" name = "Email" placeholder="E-mail">
+				<input type="password" id = "Password" name = "Password" placeholder="Password">
 				<p>If you’re the celebrity, enter the code to create a language</p>
-				<input type="Code">
+				<input type="text" id = "Code" name = "Code" placeholder="Code">
+				</div>
+				<div class="register_button"><a href="#"><span>Register now</span></a></div>
+				</form>
 			</div>
 		</div>
 		</section>
@@ -25,7 +43,40 @@
 	<main>
 		<section>
 			<div class="conteiner">
-				
+				<h1>What is Elinguage?</h1>
+				<p>Web platform for communication using different artificial languages. New idea for your and your friends fun. Enjoy yor conversation!</p>
+				<h2>How it works?</h2>
+				<div class="how_it_works_block">
+					<div class="start">
+						<img src="img/plus.png" alt="">
+						<div class="description">
+						<h3>Start</h3>
+						<p>Register or sign in</p>
+						</div>
+					</div>
+					<div class="translate">
+						<img src="img/translation.png" alt="">
+						<div class="description">
+						<h3>Translate</h3>
+						<p>Write word or expression, choose the language and translate</p>
+						</div>
+					</div>
+					<div class="share">
+						<img src="img/group2.png" alt="">
+						<div class="description">
+						<h3>Share</h3>
+						<p>Share the five-letter conversation code with other members, who can use it to join your group.</p>
+						</div>
+					</div>
+					<div class="create">
+						<img src="img/idea.png" alt="">
+						<div class="description">
+						<h3>Create</h3>
+						<p>Create your own language!</p>
+						</div>
+					</div>
+
+				</div>
 			</div>
 		</section>
 		
@@ -33,7 +84,20 @@
 	<footer>
 		<section>
 		<div class="conteiner">
-			
+			<img src="img/logo_white.png" alt="#">
+			<div class="contacts">
+				<div class="conect_with_us_block">
+					<div class="rectangle">
+						
+					</div>
+					<p>Connect with us</p>
+					<div class="rectangle">
+						
+					</div>
+				</div>
+				<p>support@elinguage.com</p>
+				
+			</div>
 		</div>
 	</section>
 		
